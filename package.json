@@ -1,0 +1,25 @@
+{
+  "name": "migrate-mongostore",
+  "version": "0.1.0",
+  "description": "Node-migrate adapter that uses mongo to track migrations. Install node-migrate and this adapter",
+  "keywords": [
+    "migrate",
+    "migrations",
+    "node-migrate",
+    "mongo"
+  ],
+  "author": "Andres Olave <andres.olave@thinkingbytes.net>",
+  "repository": "git://github.com/sloops77/node-migrate-mongostore",
+  "devDependencies": {
+    "mocha": "^2.2.1",
+    "migrate": "latest"
+  },
+  "main": "node-migrate-mongostore",
+  "engines": {
+    "node": ">= 0.4.x"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": ">= 1.2"
+  }
+}
