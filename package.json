@@ -1,6 +1,6 @@
 {
   "name": "migrate-mongostore",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node-migrate adapter that uses mongo to track migrations. Install node-migrate and this adapter",
   "keywords": [
     "migrate",
