@@ -89,8 +89,8 @@ MongoStore.prototype.lock = function (callback) {
             if (err) {
               callback(new Error('Blocked: Migration Table Already Locked'));
             } else {
-              console.log('locked');
-                callback(null, retVal);
+              // console.log('locked');
+              callback(null, retVal);
             }
         });
     });
@@ -104,7 +104,7 @@ MongoStore.prototype.unlock = function (callback) {
       {$set: {lock: false}},
       {},
       function (err, retVal) {
-        console.log('unlocked');
+        // console.log('unlocked');
         callback(err, retVal);
       });
   });
