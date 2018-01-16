@@ -20,6 +20,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "mongodb": ">= 1.2"
+    "mongodb": "~2.2.0"
   }
 }
